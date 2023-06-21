@@ -1,0 +1,67 @@
+{
+	"name": "@ontario-lrc/ontario-design-system-design-tokens",
+	"version": "2.5.0",
+	"private": false,
+	"description": "Design Tokens defining the base values within the Ontario Design System",
+	"license": "Apache-2.0",
+	"style": "dist/css/_variables.css",
+	"files":
+	[
+		"dist/{css,scss}/",
+		"package.json",
+		"README.md"
+	],
+	"scripts":
+	{
+		"build": "node build.js",
+		"clean": "rm -rf dist",
+		"clean:full": "rm -rf node_modules && npm run clean",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies":
+	{
+		"style-dictionary": "^3.7.1"
+	},
+	"publishConfig":
+	{
+		"access": "public"
+	},
+	"authors":
+	[
+		{
+			"name": "Scott Morris",
+			"email": "Scott.Morris@ontario.ca"
+		},
+		{
+			"name": "Elsa Ng",
+			"email": "Elsa.Ng@ontario.ca"
+		},
+		{
+			"name": "Erin Carrieres",
+			"email": "Erin.Carrieres@ontario.ca"
+		},
+		{
+			"name": "Meaghan Carrieres",
+			"email": "Meaghan.Carrieres@ontario.ca"
+		},
+		{
+			"name": "Nakib Momin",
+			"email": "Nakib.Momin@ontario.ca"
+		},
+		{
+			"name": "Dawid Kasperowicz",
+			"email": "dawid.kasperowicz@ontario.ca"
+		}
+	],
+	"sass": "dist/scss/_variables.scss",
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/ontario-lrc/ontario-design-system-design-tokens"
+	},
+	"bugs":
+	{
+		"url": "https://github.com/ontario-lrc/ontario-design-system-design-tokens/issues"
+	},
+	"homepage": "https://github.com/ontario-lrc/ontario-design-system-design-tokens/blob/main/README.md"
+}
