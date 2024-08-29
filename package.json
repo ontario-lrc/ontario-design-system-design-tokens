@@ -1,6 +1,6 @@
 {
 	"name": "@ontario-lrc/ontario-design-system-design-tokens",
-	"version": "4.2.1",
+	"version": "4.2.2",
 	"private": false,
 	"description": "Design Tokens defining the base values within the Ontario Design System. This is a carbon-copy of @ongov/ontario-design-system-design-tokens@4.2.0, with bug fixes discovered.",
 	"license": "Apache-2.0",
@@ -8,7 +8,7 @@
 	"style": "dist/css/_variables.css",
 	"files":
 	[
-		"dist/*",
+		"dist/{css,scss}/",
 		"package.json",
 		"README.md"
 	],
